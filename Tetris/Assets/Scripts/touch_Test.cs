@@ -7,20 +7,19 @@ public class touch_Test : MonoBehaviour
 {
     public GameObject[] Shapes;
     public Transform[] spawnPoint;
+    private Vector2 screenBounds;
+    private GameObject obj;
     [SerializeField]  private float speed;
     private void Start()
     {
         StartCoroutine(Spawn());
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
 
 
     void Update()
     {
-
-        if (Input.GetKeyDown("w"))
-        {
-            Instantiate(Shapes[Random.Range(0, 3)]);
-        }
+        
 
         foreach (Touch touch in Input.touches)
         {
@@ -48,7 +47,7 @@ public class touch_Test : MonoBehaviour
         
         for ( ; ; )
         {
-            Instantiate(Shapes[Random.Range(0,7)],spawnPoint[Random.Range(0,6)]);
+            Instantiate(Shapes[Random.Range(0,6)],spawnPoint[Random.Range(0,4)]);
             Debug.Log("Tik Tok.....");
             yield return new WaitForSeconds(speed);
             
