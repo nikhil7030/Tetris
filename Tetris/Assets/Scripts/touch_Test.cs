@@ -6,8 +6,7 @@ using UnityEngine;
 public class touch_Test : MonoBehaviour
 {
     public GameObject[] Shapes;
-    public Vector3 spawnPoint;
-    public Transform spawnLoc;
+    public Transform[] spawnPoint;
     [SerializeField]  private float speed;
     private void Start()
     {
@@ -17,8 +16,6 @@ public class touch_Test : MonoBehaviour
 
     void Update()
     {
-
-        spawnPoint = new Vector3(Random.Range(1.90f, 11.72f), 20.97f, -3.291992f);
 
         if (Input.GetKeyDown("w"))
         {
@@ -51,7 +48,7 @@ public class touch_Test : MonoBehaviour
         
         for ( ; ; )
         {
-            Instantiate(Shapes[Random.Range(0, 3)],spawnLoc);
+            Instantiate(Shapes[Random.Range(0,7)],spawnPoint[Random.Range(0,6)]);
             Debug.Log("Tik Tok.....");
             yield return new WaitForSeconds(speed);
             
