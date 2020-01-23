@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 8625009674375946019}
   - component: {fileID: 8625009674375946016}
   - component: {fileID: 6073451590676800129}
+  - component: {fileID: 8445967104087346592}
   m_Layer: 0
   m_Name: L (3)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674375946018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81562, y: 8.8115, z: 13.818}
+  m_LocalPosition: {x: 1.7, y: 3.5, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -107,6 +108,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &8445967104087346592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009674375946018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &8625009674622450793
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,9 +132,10 @@ GameObject:
   - component: {fileID: 8625009674622450798}
   - component: {fileID: 8625009674622450799}
   - component: {fileID: 251112639901021446}
+  - component: {fileID: 2769307157649356676}
   m_Layer: 0
   m_Name: L (1)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674622450793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 8.8115, z: 13.818}
+  m_LocalPosition: {x: 1, y: 3.5, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -214,6 +229,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2769307157649356676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009674622450793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &8625009674835650752
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,9 +253,10 @@ GameObject:
   - component: {fileID: 8625009674835650753}
   - component: {fileID: 8625009674835650758}
   - component: {fileID: 6645969951568227179}
+  - component: {fileID: 6410066114488628320}
   m_Layer: 0
   m_Name: L
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +269,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674835650752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 10.208, z: 13.818}
+  m_LocalPosition: {x: 1, y: 4.9, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -321,6 +350,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6410066114488628320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009674835650752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &8625009675798367908
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,9 +374,10 @@ GameObject:
   - component: {fileID: 8625009675798367909}
   - component: {fileID: 8625009675798367898}
   - component: {fileID: 1586495894257894276}
+  - component: {fileID: 878040720705582963}
   m_Layer: 0
   m_Name: L (2)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,7 +390,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009675798367908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 9.5129, z: 13.818}
+  m_LocalPosition: {x: 1, y: 4.2, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -428,6 +471,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &878040720705582963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009675798367908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &8625009676081933628
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +496,7 @@ GameObject:
   - component: {fileID: 7418949317639509804}
   m_Layer: 0
   m_Name: L
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -478,7 +534,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 0.2
+  m_GravityScale: 0.3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

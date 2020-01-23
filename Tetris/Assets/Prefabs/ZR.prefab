@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4550468629196211101}
   m_Layer: 0
   m_Name: Z
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 1794155715809425396}
   m_Layer: 0
   m_Name: Z
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 7233298733767299263}
   m_Layer: 0
   m_Name: Z
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,9 +331,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1935255227983853622}
   - component: {fileID: 1935255227983853623}
+  - component: {fileID: -8370597772282987216}
   m_Layer: 0
   m_Name: ZR
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -371,12 +372,25 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 0.2
+  m_GravityScale: 0.3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-8370597772282987216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935255227983853619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &1935255228402694100
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +404,7 @@ GameObject:
   - component: {fileID: 2872292656930846772}
   m_Layer: 0
   m_Name: Z
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

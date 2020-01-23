@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -8010849094783706175}
   m_Layer: 0
   m_Name: I
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765331375389686786}
   m_LocalRotation: {x: -0, y: -0, z: 0.7061807, w: 0.7080317}
-  m_LocalPosition: {x: 4.655, y: -0.012, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7765331376048063450}
@@ -49,7 +49,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 0.2
+  m_GravityScale: 0.3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -66,9 +66,10 @@ GameObject:
   - component: {fileID: 7765331375526028703}
   - component: {fileID: 7765331375526028702}
   - component: {fileID: 8752416728686276357}
+  - component: {fileID: 6574822595726368452}
   m_Layer: 0
   m_Name: L (2)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,7 +82,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765331375526028700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 9.5129, z: 13.818}
+  m_LocalPosition: {x: 0.12, y: -0.01, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 7765331375389686797}
@@ -162,6 +163,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6574822595726368452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7765331375526028700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &7765331375920703706
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,9 +187,10 @@ GameObject:
   - component: {fileID: 7765331375920703269}
   - component: {fileID: 7765331375920703268}
   - component: {fileID: 2988265764020950133}
+  - component: {fileID: 6590443250853339834}
   m_Layer: 0
   m_Name: L (1)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,7 +203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765331375920703706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 8.8115, z: 13.818}
+  m_LocalPosition: {x: 0.12, y: -0.71, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 7765331375389686797}
@@ -269,6 +284,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6590443250853339834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7765331375920703706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &7765331376048063451
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,9 +308,10 @@ GameObject:
   - component: {fileID: 7765331376048063450}
   - component: {fileID: 7765331376048063013}
   - component: {fileID: 4188268577403722891}
+  - component: {fileID: 6697147322256947841}
   m_Layer: 0
   m_Name: L
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,7 +324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7765331376048063451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11632, y: 10.208, z: 13.818}
+  m_LocalPosition: {x: 0.12, y: 0.69, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 7765331375389686797}
@@ -376,3 +405,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6697147322256947841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7765331376048063451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
