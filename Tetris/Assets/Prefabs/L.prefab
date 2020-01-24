@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8625009674375946019}
   - component: {fileID: 8625009674375946016}
   - component: {fileID: 6073451590676800129}
-  - component: {fileID: 8445967104087346592}
   m_Layer: 0
   m_Name: L (3)
   m_TagString: Shapes
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674375946018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: 3.5, z: 13.818}
+  m_LocalPosition: {x: 1.69, y: 3.51, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -108,19 +107,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8445967104087346592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8625009674375946018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &8625009674622450793
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +118,6 @@ GameObject:
   - component: {fileID: 8625009674622450798}
   - component: {fileID: 8625009674622450799}
   - component: {fileID: 251112639901021446}
-  - component: {fileID: 2769307157649356676}
   m_Layer: 0
   m_Name: L (1)
   m_TagString: Shapes
@@ -148,7 +133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674622450793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 3.5, z: 13.818}
+  m_LocalPosition: {x: 0.99, y: 3.51, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -229,19 +214,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2769307157649356676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8625009674622450793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &8625009674835650752
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +225,6 @@ GameObject:
   - component: {fileID: 8625009674835650753}
   - component: {fileID: 8625009674835650758}
   - component: {fileID: 6645969951568227179}
-  - component: {fileID: 6410066114488628320}
   m_Layer: 0
   m_Name: L
   m_TagString: Shapes
@@ -269,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009674835650752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 4.9, z: 13.818}
+  m_LocalPosition: {x: 0.99, y: 4.91, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -350,19 +321,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6410066114488628320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8625009674835650752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &8625009675798367908
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +332,6 @@ GameObject:
   - component: {fileID: 8625009675798367909}
   - component: {fileID: 8625009675798367898}
   - component: {fileID: 1586495894257894276}
-  - component: {fileID: 878040720705582963}
   m_Layer: 0
   m_Name: L (2)
   m_TagString: Shapes
@@ -390,7 +347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009675798367908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 4.2, z: 13.818}
+  m_LocalPosition: {x: 0.99, y: 4.21, z: 13.818}
   m_LocalScale: {x: 0.65827566, y: 0.65827566, z: 0.7453962}
   m_Children: []
   m_Father: {fileID: 8625009676081933629}
@@ -471,19 +428,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &878040720705582963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8625009675798367908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &8625009676081933628
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +438,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8625009676081933629}
   - component: {fileID: 7418949317639509804}
+  - component: {fileID: 460931292776227954}
+  - component: {fileID: 7675045287670037866}
   m_Layer: 0
   m_Name: L
   m_TagString: Shapes
@@ -509,7 +455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8625009676081933628}
   m_LocalRotation: {x: -0, y: -0, z: -0.99999946, w: 0.0011049956}
-  m_LocalPosition: {x: -0.02, y: 8.76, z: 0}
+  m_LocalPosition: {x: 0.01, y: 8.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8625009674835650753}
@@ -540,3 +486,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!68 &460931292776227954
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009676081933628}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.6767255, y: 3.1849089}
+  - {x: 0.6772845, y: 5.2210765}
+  - {x: 1.3221049, y: 5.217724}
+  - {x: 1.3326621, y: 3.8305473}
+  - {x: 2.0226681, y: 3.8176563}
+  - {x: 2.0245757, y: 3.8182669}
+  - {x: 2.025686, y: 3.172099}
+  - {x: 0.6726536, y: 3.1726656}
+--- !u!114 &7675045287670037866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8625009676081933628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}

@@ -204,8 +204,8 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.804808
-  m_Depth: -1
+  orthographic size: 9.669423
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -228,7 +228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.87, y: 10.11, z: -10}
+  m_LocalPosition: {x: 6.39, y: 10.11, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -363,8 +363,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744364201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.83, y: 9.9, z: 0}
-  m_LocalScale: {x: 11.914718, y: 20.073776, z: 7.5649}
+  m_LocalPosition: {x: 6.41, y: 9.9, z: 0}
+  m_LocalScale: {x: 11.021114, y: 20.073776, z: 7.5649}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -406,6 +406,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1567444074, guid: 470f3c148d6acf74caf03692bd90a97a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567444074, guid: 470f3c148d6acf74caf03692bd90a97a, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1305534341733612586, guid: 470f3c148d6acf74caf03692bd90a97a,
         type: 3}
       propertyPath: m_TagString
@@ -419,7 +427,22 @@ PrefabInstance:
     - target: {fileID: 1305534341733612588, guid: 470f3c148d6acf74caf03692bd90a97a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.64
+      value: -8.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305534341733612588, guid: 470f3c148d6acf74caf03692bd90a97a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305534341733612588, guid: 470f3c148d6acf74caf03692bd90a97a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10.967894
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305534341861670477, guid: 470f3c148d6acf74caf03692bd90a97a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.97
       objectReference: {fileID: 0}
     - target: {fileID: 1305534342545732762, guid: 470f3c148d6acf74caf03692bd90a97a,
         type: 3}

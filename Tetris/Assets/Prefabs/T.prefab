@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 8060247877637561369}
   - component: {fileID: -4495458706937560292}
   - component: {fileID: 1222366994529807055}
+  - component: {fileID: 6907913041944143402}
   m_Layer: 0
   m_Name: T
   m_TagString: Shapes
@@ -498,3 +499,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchtest: {fileID: 0}
+--- !u!68 &6907913041944143402
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060247877637561370}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09, y: 8.73}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.1287851, y: -0.24575901}
+  - {x: -3.170919, y: -0.24861431}
+  - {x: -3.1736395, y: 0.41077137}
+  - {x: -2.4720395, y: 0.4103899}
+  - {x: -2.4676971, y: 1.107255}
+  - {x: -1.8100408, y: 1.1096258}
+  - {x: -1.810571, y: 0.4113016}
+  - {x: -1.1325125, y: 0.40904236}
+  - {x: -1.1278344, y: -0.24735737}

@@ -88,7 +88,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935255226489033164}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -195,7 +195,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935255226639137146}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 1935255227983853622}
   - component: {fileID: 1935255227983853623}
   - component: {fileID: -8370597772282987216}
+  - component: {fileID: 8960798613294751132}
   m_Layer: 0
   m_Name: ZR
   m_TagString: Shapes
@@ -391,6 +392,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchtest: {fileID: 0}
+--- !u!68 &8960798613294751132
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935255227983853619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.95252794, y: 1.1770273}
+  - {x: 0.94991165, y: 1.1768507}
+  - {x: 0.9490132, y: -0.17092037}
+  - {x: 0.2552626, y: -0.16771588}
+  - {x: 0.2522028, y: -0.86743784}
+  - {x: -0.40519524, y: -0.8653153}
+  - {x: -0.404205, y: 0.4901434}
+  - {x: 0.29263052, y: 0.48968104}
+  - {x: 0.29263052, y: 0.49061275}
+  - {x: 0.29424402, y: 1.1788561}
+  - {x: 0.9524376, y: 1.177267}
 --- !u!1 &1935255228402694100
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,7 +507,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935255228402694100}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

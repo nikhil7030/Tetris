@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 141258562804913386}
   - component: {fileID: 141258562804913385}
+  - component: {fileID: 3633393668673529108}
+  - component: {fileID: 4151091461201886385}
   m_Layer: 0
   m_Name: LR
   m_TagString: Shapes
@@ -56,6 +58,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!68 &3633393668673529108
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141258562804913381}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0.01
+  m_Points:
+  - {x: 2.815281, y: -18.36516}
+  - {x: 2.8176858, y: -19.018072}
+  - {x: 3.5151126, y: -19.025875}
+  - {x: 3.5250342, y: -20.41227}
+  - {x: 4.174019, y: -20.412785}
+  - {x: 4.174842, y: -18.35694}
+  - {x: 2.8181353, y: -18.359283}
+--- !u!114 &4151091461201886385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141258562804913381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchtest: {fileID: 0}
 --- !u!1 &141258563275614225
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,7 +105,6 @@ GameObject:
   - component: {fileID: 141258563275614230}
   - component: {fileID: 141258563275614231}
   - component: {fileID: 5753451858161958324}
-  - component: {fileID: 6961628310434555708}
   m_Layer: 0
   m_Name: L (1)
   m_TagString: Shapes
@@ -164,19 +201,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6961628310434555708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141258563275614225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &141258563832188453
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +212,6 @@ GameObject:
   - component: {fileID: 141258563832188458}
   - component: {fileID: 141258563832188459}
   - component: {fileID: 1285032300429768130}
-  - component: {fileID: 1376139154065009372}
   m_Layer: 0
   m_Name: L (3)
   m_TagString: Shapes
@@ -285,19 +308,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1376139154065009372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141258563832188453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &141258564078497590
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,7 +319,6 @@ GameObject:
   - component: {fileID: 141258564078497591}
   - component: {fileID: 141258564078497588}
   - component: {fileID: 8945076433792793586}
-  - component: {fileID: 1506051626566206884}
   m_Layer: 0
   m_Name: L (2)
   m_TagString: Shapes
@@ -406,19 +415,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1506051626566206884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141258564078497590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
 --- !u!1 &141258564275549117
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +426,6 @@ GameObject:
   - component: {fileID: 141258564275548994}
   - component: {fileID: 141258564275548995}
   - component: {fileID: 1244798188091032442}
-  - component: {fileID: 5113525190752492163}
   m_Layer: 0
   m_Name: L
   m_TagString: Shapes
@@ -527,16 +522,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5113525190752492163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141258564275549117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ac15e1c07672a458e8cf0747df528f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchtest: {fileID: 0}
