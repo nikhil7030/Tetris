@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 
 public class BoundaryControl : MonoBehaviour
@@ -13,15 +14,16 @@ public class BoundaryControl : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 direction;
     private float moveSpeed = 10f;
-    private bool tilted;
+    private int tilted;
+    private float a;
 
     private void Awake()
     {
         canMove = true;
         touchtest = FindObjectOfType<touch_Test>();
         rb = GetComponent<Rigidbody2D>();
-        
-        tilted = false;
+        a = transform.rotation.eulerAngles.z;
+        tilted = 1;
     }
 
     private void FixedUpdate()
@@ -32,28 +34,12 @@ public class BoundaryControl : MonoBehaviour
             
             if (Input.GetKeyDown("t"))
             {
-                Debug.Log("Rotate 1");
-                //if (rb.gameObject.name.Equals("Z(Clone)"))
-               // {
-                    if (tilted == false)
-                    {
-                        Debug.Log("Rotate 2");
-                        transform.Rotate(0f, 0f, 90f);
-                        tilted = true;
-                    }
-                    else 
-                    {
-                        Debug.Log("Rotate 2");
-                        transform.Rotate(0f, 0f, 0f);
-                        tilted = false;
-                    }
-                    
-               // }
+                
             }
 
             if (rb.velocity == new Vector2(0,0))
             {
-                rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
             }
 
             if (Input.touchCount > 0)
@@ -64,7 +50,7 @@ public class BoundaryControl : MonoBehaviour
                     touchPosition = Camera.main.ScreenToWorldPoint(touch.position);     //Fromula To Calculate Screen Boundary
                     touchPosition.z = 0;
                     direction = (touchPosition - transform.position);   //Move Object Towards Touch Position
-                    rb.velocity = new Vector2(direction.x , direction.y) * moveSpeed;
+                    rb.velocity = new Vector2(direction.x , 0) * moveSpeed;
                 }
 
                 if (touch.phase == TouchPhase.Ended)    //To Stop object when touch is ended
@@ -73,29 +59,26 @@ public class BoundaryControl : MonoBehaviour
                 }
                 if (touch.phase == TouchPhase.Stationary)
                 {
-                    Debug.Log("Rotate 1");
-                    if (rb.gameObject.name.Equals("Z(Clone)"))
-                    {
-                        if (tilted == false)
-                        {
-                            Debug.Log("Rotate 2");
-                            transform.Rotate(0f, 0f, 90f);
-                            tilted = true;
-                        }
-                        else
-                        {
-                            Debug.Log("Rotate 2");
-                            transform.Rotate(0f, 0f, 0f);
-                            tilted = false;
-                        }
-
-                    }
+                    rotate(rb.gameObject.name,90);
                 }
 
             }
         }
     }
-   
+    private void rotate(string obj,float angel)
+    {
+        Debug.Log("Rotate 1");
+        if (obj == "Z(Clone)")
+        {
+            switch (tilted)
+            {
+                case 1:
+                    transform.Rotate(0f,0f,90f);
+                    tilted = 2;
+                    break;
+            }
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
