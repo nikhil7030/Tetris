@@ -16,7 +16,7 @@ public class Movements : MonoBehaviour
     }
 
     
-    private void Update()
+    private void FixedUpdate()
     {
         if (Input.touchCount > 0)
         {

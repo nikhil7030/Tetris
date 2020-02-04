@@ -45,7 +45,7 @@ public class touch_Test : MonoBehaviour
     public void Spawn()
     {
 
-            Instantiate(Shapes[Random.Range(0,6)],spawnPoint);
+            Instantiate(Shapes[Random.Range(0,Shapes.Length)],spawnPoint.position,Quaternion.identity);
             Debug.Log("Tik Tok.....");
             /*
             if (obj.transform.position.x > -23 | obj.transform.position.x > 1)

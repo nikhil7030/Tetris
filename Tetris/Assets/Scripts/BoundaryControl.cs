@@ -9,6 +9,7 @@ public class BoundaryControl : MonoBehaviour
     public touch_Test touchtest;
     private bool canMove;
     private Quaternion rotation = new Quaternion(0f,0f,0f,90f);
+    private Explodable expl;
 
     private Vector3 touchPosition;
     private Rigidbody2D rb;
@@ -16,6 +17,8 @@ public class BoundaryControl : MonoBehaviour
     private float moveSpeed = 10f;
     private int tilted;
     private float a;
+    private float previousTime;
+    public float fallTime = 1f;
 
     private void Awake()
     {
@@ -28,15 +31,13 @@ public class BoundaryControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
+        if (Time.time - previousTime > fallTime)
+        {
+            transform.position += new Vector3(0, -1, 0);
+            previousTime = Time.time;
+        }
         if (canMove == true)
         {
-            
-            if (Input.GetKeyDown("t"))
-            {
-                
-            }
-
             if (rb.velocity == new Vector2(0,0))
             {
                 rb.constraints = RigidbodyConstraints2D.FreezeRotation;
@@ -89,9 +90,12 @@ public class BoundaryControl : MonoBehaviour
                 Debug.Log("At End");
                 
                 canMove = false;
-                touchtest.Spawn(); 
-                Destroy(this.gameObject);
-                Destroy(this.gameObject.transform.parent.gameObject);
+                touchtest.Spawn();  //respawn the shapes
+                Destroy(this.gameObject); //distroy clone
+                Destroy(this.gameObject.transform.parent.gameObject);  //distroy clone
+                rb.bodyType = RigidbodyType2D.Static;   //make obj non movable
+
+
 
             }
             else if (collision.gameObject.CompareTag("BottomB") | collision.gameObject.CompareTag("Shapes"))
@@ -99,7 +103,7 @@ public class BoundaryControl : MonoBehaviour
                 Debug.Log("Next");
 
                 canMove = false;
-                touchtest.Spawn();
+                touchtest.Spawn();  //respawn the shapes
 
 
             }
